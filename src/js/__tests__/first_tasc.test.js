@@ -1,4 +1,4 @@
-import Validator from '../basic';
+import Validator from '../first_tasc';
 
 test('Имя с цифрами', () => {
   const result = new Validator('1111');
