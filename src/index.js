@@ -1,5 +1,4 @@
-import './css/style.css';
+import Validator from './js/basic';
 
-import './js/app';
-
-// TODO: write your code in app.js
+const user = new Validator();
+console.log(user.validateUsername());
